@@ -7,7 +7,6 @@ Created on Wed Jul  9 18:42:37 2025
 
 import cv2
 import streamlit as st
-import cv2
 import numpy as np
 from ultralytics import YOLO
 
