@@ -18,3 +18,6 @@ ultralytics-thop>=2.0.0
 opencv-python-headless
 torch
 pandas
+opencv_contrib_python_headless==4.12.0.88
+opencv_python==4.12.0.88
+
