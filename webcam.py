@@ -4,11 +4,13 @@ Created on Wed Jul  9 18:42:37 2025
 
 @author: polas
 """
-
+import os
 import cv2
 import streamlit as st
 import numpy as np
 from ultralytics import YOLO
+
+os.environ["OPENCV_VIDEOIO_MSMF_ENABLE_HW_TRANSFORMS"] = "0"
 
 model = YOLO('best.pt')
 object_names = list(model.names.values())
